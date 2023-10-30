@@ -2,19 +2,21 @@
   padding: 0;  
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-  background-color:rgb(248, 207, 213);
+  background-color:rgb(242, 224, 224);
 }
 header{
   width: 100%;
   padding: 20px;
-  position: fixed;
+  position:fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
+  z-index: 100;
 }
 header img{
   width: 60px;
+  margin-left: 70px;
 }
 header ul{
   list-style-type: none;
@@ -22,37 +24,44 @@ header ul{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 header .menu a{
   text-decoration: none;
   color: black;
   font-size: 20px;
   font-weight: bold;
-  margin: 20px 35px 20px 80px;
+  margin: 20px 35px 20px 70px;
+  padding: 20px;
+}
+main{
+  height: auto;
+  margin:auto;
   padding: 30px;
 }
 #carouselExampleIndicators{
-  width: 90%;
-  margin:25px 0px 0px 100px;
-  padding: 50px;
+  width: 55%;
+  margin: auto;
+  padding: 40px;
+ 
 }
 #titulo{
    text-align: center;
    font-style: italic;
-   padding-top: 80px;
-   margin: 60px 0px 8px 0px;
+   padding-top: 100px;
+   margin-top: 35px;
 }
 main h2{
    text-align-last: center;
    margin: 10px;
    padding-top: 20px;        
 }
-footer{
-  width: 100%;
-  padding: 60px 30px;
+footer {
+  width: 100%;  
+  padding: 40px;
   font-size: 15px;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 .ropa{
   width:80%;
@@ -63,69 +72,78 @@ footer{
   margin:auto;
 }
 .indu{
+  text-align: center;
   font-style: italic;
-  font-size: 40px;
-  padding: 100px 10px 10px 10px;
-  margin: auto;
+  padding-top: 100px;
+  margin-top: 35px;
 }  
 .nombre img{
-  width: 80%;
-  padding: 30px;
-  margin: 20px;
+  width: 70%;
+  padding: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .nombre h3{
-  width: 80%;
   text-align:center;
   font-size: 25px;
-  padding: 10px 10px;
-  margin: 30px 0px 8px 0px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.volver{  
+  padding: 50px;
 }
 .volver a{
-  width: 100%;
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 30px;
-  margin: 120px;
+  margin: auto;
 }
 .contenedor{
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: 12px;
+  padding: 6px;
 }
 .lentes img{
-  width: 90%;
-  height: 70%;
+  width: 75%;
+  height: 320px;
   padding: 20px;
   margin: 30px 150px 30px 50px;
 }
 .lentes h3{
   text-align: center;
+  font-size: 25px;
   padding: 8px;
-  margin: 20px 0px 20px 0px;
+  margin: 40px 0px 10px 0px;
 }
 .acceso{
-  font-style: italic;
-  font-size: 40px;
   text-align: center;
-  padding: 100px 0px 30px 0px;
-  margin: 60px 0px 10px 1px;
+  font-style: italic;
+  padding-top: 100px;
+  margin-top: 35px;
 }
 .nosimg{
-  width: 60%;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
   margin: auto;
-  padding: 10px;
+ 
 }
 .pres{
-  font-style: italic;
-  font-size: 40px;
   text-align: center;
-  padding: 80px 10px 8px 100px;
-  margin: 80px 0px 60px 100px;
+  font-style: italic;
+  padding-top: 100px;
+  margin-top: 35px;
 }
 .nos p{
-  font-size: 25px;
+  font-size: 20px;
   font-family: cursive;
   text-align: center;
   padding: 30px;
@@ -139,14 +157,13 @@ footer{
 .mb-3{
   width: 50%;
   padding: 10px;
-  margin: 20px;
+  margin: 15px;
 }
 .comunicacion{
-  font-style: italic;
-  font-size: 30px;
   text-align: center;
-  padding: 100px 0px 30px 0px;
-  margin: 60px 0px 10px 1px;
+  font-style: italic;
+  padding-top: 100px;
+  margin-top: 35px;
 }
 .formulario{
   display: flex;
@@ -156,37 +173,37 @@ footer{
 .boton{
   padding: 12px;
   margin-top: 20px;
-  padding: 10px;
 }
 .boton:hover{
-  background-color: deeppink;
+  background-color: white;
   font-size: 20px;
 }
 .redes{
-  padding: 30px;
+  padding: 10px;
+  margin: 20px;
 }
 .redes p{
   font-size: 20px;
-  margin: 20px;  
+  margin: 30px; 
 }
 .redes a{
-  margin: 20px;
+  margin: 10px;
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
-@media (max-width:576px){
+@media (min-width:376px) and (max-width:768px){
   header{
     width: 100%;
-    padding: 10px;
-    margin: 30px;
-    position: absolute;
+    height: auto;
+    padding: 5px;
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
   } 
   header img{
-    width: 70px;
+    width: 80px;
+    margin: auto;
   }
   header ul{
     display: flex;
@@ -199,47 +216,107 @@ footer{
     font-size: 10px;
     text-align: left;
     padding-top: 10px;
-    margin: 10px;
+  }
+  main{
+    padding: auto;
   }
   #carouselExampleIndicators{
     width: 100%;
-    height: 50%;
-    margin:10px 0px 0px 0px;
+    margin:auto;
     padding: 50px;
   }
   #titulo{
     text-align: center;
     font-style: italic;
-    padding-top: 120px;
-    margin: 60px 0px 8px 0px;
+    padding-top: 10px;
+    margin-top: 10px;
   }
+  main h2{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+  }  
   .ropa{
     width:100%;
     display: flex;
     padding: 30px 80px 20px 50px;
-    margin:auto;
+  }
+  .indu{
+    padding-top: 10px;
+    margin-top: 15px;
+  }
+  .nombre h3{
+    font-size: 15px;
+    padding: 10px;
+  }
+  .volver a{
+    font-size: 15px;
+    padding-left: 5px;
   }
   .contenedor{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 30px 80px 0px 0px;
+    align-items: center;
+    margin: auto;
   }
   .lentes h3{
+    font-size: 18px;
     text-align: center;
-    padding: 10px 0px 10px 20px;
-    margin: 0px 20px 0px 30px;
+    margin: 5px 0px;
+    padding: 5px 0px;
   }
   .lentes img{
-    width: 90%;
+    width: 75%;
     height: 70%;
     padding: 20px;
     margin: 30px 80px 30px 50px;
   }
-  main h2{
-    text-align-last: center;
-    margin: 20px 5px 10px 5px;
-    padding-top: 40px; 
+  .acceso{
+    padding-top: 10px;
+    margin-top: 15px;
+  }
+  .nosimg{
+   width: 30%;
+   height: 20%;
+   margin: auto;  
+   padding: 10px; 
+  }
+  .pres{
+    padding: 15px 0px;
+    margin-top: 15px;
+  }
+  .nos p{
+    font-size: 15px;
+    padding: 20px;
+    margin: auto;
+  }
+  .input-group{
+    width: 100%;
+    padding: 5px;
+    margin: 15px;
+  }
+  .mb-3{
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+  }
+  .comunicacion{
+    padding-top: 30px;
+    margin-top: 15px;
+  }
+  .boton{
+    padding: 10px;
+    margin-top: 15px;
+  }
+  .boton:hover{
+    font-size: 10px;
+  }
+  .redes a{
+    font-size: 15px;
+  }
+  .redes p{
+    font-size: 15px;
   }
   footer{
     width: 100%;
