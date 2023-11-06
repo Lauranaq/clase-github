@@ -1,0 +1,27 @@
+main{
+    width: 100%;
+    height: auto;
+    margin:auto;
+    padding: 90px 40px;
+    h2{
+        text-align-last: center;
+        font-style: italic;
+        font-weight: bold;
+        margin: 10px;
+        padding-top: 20px;
+        font-size: 25px;       
+    } 
+}
+@media (min-width:376px) and (max-width:768px){
+    main{
+        width: auto;
+        margin: 5px 0px;
+        padding: 20px 0px;       
+        h2{
+            text-align: center;
+            padding-top: 12px;
+            margin-top: 5px;
+            font-size: 20px;
+        }                
+    }
+}

@@ -1,0 +1,27 @@
+#carouselExampleIndicators{
+    width: 65%;
+    margin: auto;
+    padding: 40px;   
+}
+#titulo{
+     text-align: center;
+     font-style: italic;
+     font-size: 40px;
+     font-weight: bold;
+     padding-top: 25px;
+     margin-top: 20px;
+}
+@media (min-width:376px) and (max-width:768px){
+    #carouselExampleIndicators{
+        width:90%;
+        margin: auto;
+        padding: 20px;                  
+    }    
+    #titulo{
+        text-align: center;
+        font-style: italic;
+        padding: auto;
+        margin: auto;
+        font-size: 30px;
+    }
+}

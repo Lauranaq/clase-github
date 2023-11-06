@@ -1,0 +1,17 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+$ancho-pantalla: 300px;
+$color-primario: rgb(242, 224, 224);
+$color-secundario: lightpink;
+
+
+@if $color-primario == rgb(242, 224, 224){
+    $color-secundario:pink
+}@else{
+    $color-parrafo: rgb(248, 150, 150);
+}
+
+
+
+

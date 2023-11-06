@@ -1,0 +1,77 @@
+.input-group {
+  width: 50%;
+  padding: 10px;
+  margin: 15px;
+}
+
+.mb-3 {
+  width: 50%;
+  padding: 10px;
+  margin: 15px;
+}
+
+.formulario {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.boton {
+  padding: 8px;
+  margin-top: 20px;
+}
+
+.boton:hover {
+  background-color: rgb(238, 205, 205);
+  font-size: 12px;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+
+.redes {
+  padding: 5px;
+  margin-top: 20px;
+}
+.redes p {
+  font-size: 20px;
+  font-style: italic;
+  margin: 15px 50px;
+}
+.redes ul {
+  margin: 15px 50px;
+}
+.redes a {
+  margin: 15px 0px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .input-group {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+  }
+  .mb-3 {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+  }
+  .boton {
+    padding: 5px;
+    margin-top: 15px;
+  }
+  .boton:hover {
+    font-size: 10px;
+  }
+  .redes a {
+    font-size: 12px;
+  }
+  .redes p {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=contato.css.map */

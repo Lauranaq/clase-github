@@ -1,0 +1,19 @@
+// General
+@import './general/reset.scss';
+@import './general/variables.scss';
+@import './general/botones.scss';
+
+// Estructura 
+@import './estructura/footer.scss';
+@import './estructura/header.scss';
+@import './estructura/main.scss';
+
+// Paginas
+@import './paginas/accesorios.scss';
+@import './paginas/contato.scss';
+@import './paginas/indumentaria.scss';
+@import './paginas/sobre-nosotros.scss';
+@import './paginas/index.scss';
+
+//layout
+@import'./layout/animaciones.scss';
