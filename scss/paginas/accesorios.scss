@@ -13,14 +13,13 @@
         padding: 15px;
         margin: auto; 
         @if $ancho-pantalla == 300px {
-            border: 2px solid palevioletred;
+            border: 2px solid white;
         }@else{
             border: 2px solid rgb(241, 129, 148);
         }    
     }
     h3{
-        text-align: center;
-        font-size: 20px;
+        @include h3;
         padding: 5px 0px;
         margin-top: 40px;
         margin-bottom: 20px;
@@ -38,7 +37,7 @@
     }
     .lentes{
         h3{
-            font-size: 18px;
+            font-size: 15px;
             font-weight: bold;
             text-align: center;
             margin: 5px 0px;
