@@ -5,30 +5,31 @@
     flex-wrap: wrap;
     margin: 0px 80px;
     padding: 10px;
-}
-.lentes{
-    img{
-        width: 100%;
-        height: 350px;
-        padding: 15px;
-        margin: auto; 
-        @if $ancho-pantalla == 300px {
-            border: 2px solid white;
-        }@else{
-            border: 2px solid rgb(241, 129, 148);
-        }    
+    .lentes{
+        h3{
+            @include h3;
+            @include tamanioTexto (20px);
+            padding: 5px 0px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            a{
+                color: black;
+            } 
+        } 
+        img{
+            width: 100%;
+            height: 350px;
+            padding: 15px;
+            margin: auto; 
+            @if $ancho-pantalla == 300px {
+                border: 2px solid white;
+            }@else{
+                border: 2px solid rgb(241, 129, 148);
+            }    
+        }
     }
-    h3{
-        @include h3;
-        @include tamanioTexto (20px);
-        padding: 5px 0px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-    } 
-    a {
-        color: black;
-    } 
 }
+//Media Query
 @media (min-width:376px) and (max-width:768px){
     .contenedor{
         width: 100%;
@@ -37,21 +38,21 @@
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
-        margin: auto;        
-    }
-    .lentes{
-        h3{
-            font-size: 16px;
-            font-weight: bold;
-            text-align: center;
-            margin: 5px 0px;
-            padding: 5px 0px;
-        }
-        img{
-            width: 350px;
-            height: 250px;
-            padding: 10px;
-            margin: 30px 25px 30px 20px;
-        }  
-    }
+        margin: auto;  
+        .lentes{
+            h3{
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                margin: 5px 0px;
+                padding: 5px 0px;
+            }
+            img{
+                width: 350px;
+                height: 250px;
+                padding: 10px;
+                margin: 30px 25px 30px 20px;
+            }  
+        }     
+    }    
 }

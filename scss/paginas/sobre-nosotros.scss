@@ -1,9 +1,4 @@
-.nosimg{
-    width: 60%;
-    height: 300px;
-    @extend .img;    
-}
-.nos{
+.historia{
     p{
         font-size: 20px;
         font-family: cursive;
@@ -18,15 +13,14 @@
         @extend .img;
     }              
 } 
+.nosimg{
+    width: 60%;
+    height: 300px;
+    @extend .img;    
+}
+//Media Query
 @media (min-width:376px) and (max-width:768px){
-    .nosimg{
-        width:350px;
-        height :250px;       
-        margin: auto;  
-        padding: 10px; 
-        animation-name: none;
-    }
-    .nos{
+    .historia{
         p{
             font-size: 16px;
             font-family:'Times New Roman', Times, serif;
@@ -38,5 +32,12 @@
             height: 250px ;
             animation-name: none;
         }
-    } 
+    }
+    .nosimg{
+        width:350px;
+        height :250px;       
+        margin: auto;  
+        padding: 10px; 
+        animation-name: none;
+    }
 }

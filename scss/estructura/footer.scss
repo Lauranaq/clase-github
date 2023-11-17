@@ -8,7 +8,7 @@ footer {
     -webkit-box-shadow: -2px -8px 5px 0px rgb(233, 190, 190) ;
     -moz-box-shadow: -2px -8px 5px 0px rgb(233, 190, 190);
 }    
-    
+ //Media Query   
 @media (min-width:376px) and (max-width:768px){
     footer{
         width: 100%;
@@ -16,9 +16,9 @@ footer {
         margin: auto;
         display: flex;
         align-items: center;
+        p{
+            font-size: 12px;
+            padding: 20px;
+        } 
     }    
-    p{
-        font-size: 12px;
-        padding: 20px;
-    } 
 }  

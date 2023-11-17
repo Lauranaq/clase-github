@@ -1,24 +1,18 @@
+#titulo{
+    text-align: center;
+    font-style: italic;
+    font-size: 46px;
+    font-weight: bold;
+    padding-top: 25px;
+    margin-top: 20px;
+}
 #carouselExampleIndicators{
     width: 65%;
     margin: auto;
     padding: 40px;   
 }
-#titulo{
-     text-align: center;
-     font-style: italic;
-     font-size: 50px;
-     font-weight: bold;
-     padding-top: 25px;
-     margin-top: 20px;
-}
+//Media Query
 @media (min-width:376px) and (max-width:768px){
-    #carouselExampleIndicators{
-        width:95%;
-        padding: 10px;
-        display: flex;     
-        justify-content: center;    
-        margin-top: 40px;    
-    }    
     #titulo{
         text-align: center;
         font-style: italic;
@@ -27,4 +21,11 @@
         margin: auto;
         font-size: 32px;
     }
+    #carouselExampleIndicators{
+        width:95%;
+        padding: 10px;
+        display: flex;     
+        justify-content: center;    
+        margin-top: 40px;    
+    }    
 }
