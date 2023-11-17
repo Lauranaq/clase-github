@@ -7,7 +7,7 @@
     width: 50%;
     padding: 10px;
     margin: 15px;
-  }
+}
 .formulario{
     display: flex;
     align-items: center;
@@ -16,14 +16,14 @@
 }
 .boton{
     padding: 8px;
-    margin-top: 20px;   
-}
-.boton:hover{
+    margin-top: 20px; 
+    &:hover {
     background-color:rgb(238, 205, 205);
     font-size: 12px;
     transform: translateY(50px);
     transition: all 1s ease;
-}
+    }
+}  
 .redes{
     padding: 5px;
     margin-top: 20px;
@@ -31,10 +31,10 @@
         font-size: 20px;
         font-weight: bold;
         font-style: italic;
-        margin: 15px 60px; 
-      }
+        margin: 15px 35px; 
+    }
     ul{
-        margin: 15px 50px; 
+        margin: 20px 20px; 
     } 
     a{        
         margin: 15px 0px;
@@ -57,16 +57,16 @@
     .boton{
         padding: 5px;
         margin-top: 15px;
-      }
-    .boton:hover{
-        font-size: 10px;
+        &:hover{
+           font-size: 10px; 
+        }
     }
     .redes{
         a{
-            font-size: 12px;   
+           font-size: 13px;   
         }
         p{
-            font-size: 12px; 
+           font-size: 14px; 
         }
     }    
 }  

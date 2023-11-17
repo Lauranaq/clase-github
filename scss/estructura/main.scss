@@ -9,7 +9,7 @@ main{
         font-weight: bold;
         margin: 10px;
         padding-top: 20px;
-        font-size: 25px;          
+        @include tamanioTexto (30px);       
     } 
 }
 @media (min-width:376px) and (max-width:768px){
@@ -21,7 +21,7 @@ main{
             text-align: center;
             padding-top: 12px;
             margin-top: 5px;
-            font-size: 25px;
+            font-size: 22px;
         }                
     }
 }

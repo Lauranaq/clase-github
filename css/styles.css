@@ -57,7 +57,7 @@ footer {
     align-items: center;
   }
   p {
-    font-size: 10px;
+    font-size: 12px;
     padding: 20px;
   }
 }
@@ -115,10 +115,11 @@ header .menu a {
     margin: auto;
   }
   header .menu a {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     padding-top: 10px;
     margin: 25px 0px;
+    line-height: 2.2;
   }
 }
 main {
@@ -133,7 +134,7 @@ main h2 {
   font-weight: bold;
   margin: 10px;
   padding-top: 20px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -146,7 +147,7 @@ main h2 {
     text-align: center;
     padding-top: 12px;
     margin-top: 5px;
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 .contenedor {
@@ -167,13 +168,16 @@ main h2 {
 }
 .lentes h3 {
   text-align: center;
-  font-size: 20px;
   font-weight: bold;
   font-style: oblique;
   text-decoration: underline;
+  font-size: 20px;
   padding: 5px 0px;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+.lentes a {
+  color: black;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -187,7 +191,7 @@ main h2 {
     margin: auto;
   }
   .lentes h3 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     margin: 5px 0px;
@@ -196,7 +200,7 @@ main h2 {
   .lentes img {
     width: 350px;
     height: 250px;
-    padding: 20px;
+    padding: 10px;
     margin: 30px 25px 30px 20px;
   }
 }
@@ -223,7 +227,6 @@ main h2 {
   padding: 8px;
   margin-top: 20px;
 }
-
 .boton:hover {
   background-color: rgb(238, 205, 205);
   font-size: 12px;
@@ -239,10 +242,10 @@ main h2 {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
-  margin: 15px 60px;
+  margin: 15px 35px;
 }
 .redes ul {
-  margin: 15px 50px;
+  margin: 20px 20px;
 }
 .redes a {
   margin: 15px 0px;
@@ -270,10 +273,10 @@ main h2 {
     font-size: 10px;
   }
   .redes a {
-    font-size: 12px;
+    font-size: 13px;
   }
   .redes p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .ropa {
@@ -287,7 +290,7 @@ main h2 {
 
 .nombre img {
   width: 65%;
-  padding: auto;
+  padding: 15px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -295,15 +298,18 @@ main h2 {
 }
 .nombre h3 {
   text-align: center;
-  font-size: 20px;
   font-weight: bold;
   font-style: oblique;
   text-decoration: underline;
+  font-size: 22px;
   padding-top: 20px;
   padding-bottom: 8px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
+}
+.nombre a {
+  color: black;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -315,18 +321,22 @@ main h2 {
     margin: auto;
     padding-right: 50px;
   }
+  .indu {
+    margin-left: 40px;
+  }
   .nombre img {
-    width: 350px;
-    height: 250px;
+    width: 380px;
+    height: 280px;
     margin-left: 50px;
+    padding: 10px;
     display: flex;
     justify-content: center;
   }
   .nombre h3 {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 60px;
   }
@@ -358,7 +368,8 @@ main h2 {
     animation-name: none;
   }
   .nos p {
-    font-size: 12px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
     padding: 25px 30px;
     margin: auto;
   }
@@ -377,7 +388,7 @@ main h2 {
 #titulo {
   text-align: center;
   font-style: italic;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: bold;
   padding-top: 25px;
   margin-top: 20px;
@@ -385,9 +396,11 @@ main h2 {
 
 @media (min-width: 376px) and (max-width: 768px) {
   #carouselExampleIndicators {
-    width: 90%;
-    margin: auto;
-    padding: 20px;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
   }
   #titulo {
     text-align: center;
@@ -395,7 +408,7 @@ main h2 {
     font-weight: bold;
     padding: auto;
     margin: auto;
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 body {

@@ -9,7 +9,7 @@
 .nombre{
     img{
         width: 65%;
-        padding: auto;
+        padding: 15px;
         margin: auto;
         display: flex;
         justify-content: center;  
@@ -21,11 +21,15 @@
     }
     h3{
         @include h3;
+        @include tamanioTexto (22px);
         padding-top:20px;
         padding-bottom:8px;
         margin-top: 30px;
         display: flex;
         justify-content: center;
+    }
+    a {
+        color: black;
     }
 }
 @media (min-width:376px) and (max-width:768px){
@@ -37,19 +41,23 @@
         margin: auto;
         padding-right: 50px;
     }
+    .indu {
+        margin-left: 40px;
+    }
     .nombre {
         img{
-            width:350px;
-            height: 250px; 
+            width:380px;
+            height: 280px; 
             margin-left: 50px;
+            padding: 10px;
             display: flex;
             justify-content: center;                      
         }
         h3{
             text-align: center;
-            font-size: 15px;
+            font-size: 16px;
             font-weight: bold;
-            padding-top:30px;
+            padding-top:10px;
             padding-bottom:10px;
             margin-left: 60px;
         }
